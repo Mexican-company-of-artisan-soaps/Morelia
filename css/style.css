@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFFFFF;
+}
+
+.cajaPricipal{
+	width:400px;
+	margin:auto;
+	margin-top:50px;
+}
+#check{
+	display:none}
+.cajaPrincipal label{
+	background-color:green;
+	padding:5px;
+	text-decoration:none;
+	   border-radius:15px 5px 8px 0;
+	   text-align:center;
+	   letter-spacing:0px;
+	   -moz-transition:all 0.05s;
+	   -webkit-transition:all 0.05s;
+	   -o-transition:all 0.05s;}
+.cajaPrincipal label:hover{letter-spacing:0px;
+                           background-color:#3F0;}
+.cajaPrincipal div  img{
+	width:400px;
+	margin-top:20px;
+}
+.cajaPrincipal div{
+	height:0;
+	overflow:hidden;
+	-webkit-transition:all 1s linear;
+	-moz-transition:all 1s linear;
+	-o-transition:all 1s linear;
+}
+.cajaPrincipal label:active{
+	background-color:#FFF;
+	}	
+.cajaPrincipal #check:checked ~ div{
+	height:400px;
+	
+	}

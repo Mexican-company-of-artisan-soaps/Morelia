@@ -1,0 +1,13 @@
+<!DOCTYPE html> <>
+<html>
+<head>
+	<title>Mail form</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"
+</head>
+<body>
+<form>
+	<input type="text" placeholder="name" name="name">
+	<input type="email" placeholder="email" name="email">
+	<input type="text" placeholder="asunto" name="asunto">
+	<textarea type="mensaje" placeholder="asunto" name="msg"></textarea>
+	<input type="text" placeholder="asunto" name="asunto" required="">

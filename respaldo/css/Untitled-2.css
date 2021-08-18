@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+#principal{width:400px;
+           margin:auto;
+		   margin-top:50px;}
+#enlace{float:left;
+       width:132px;
+	   height:25px;
+	   background:#28A62C;
+	   color:#FFF;
+	   text-decoration:none;
+	   border-radius:20px 5px 8px 0;
+	   text-align:center;
+	   letter-spacing:0px;
+	   -moz-transition:all 0.05s;
+	   -webkit-transition:all 0.05s;
+	   -o-transition:all 0.05s;}
+#enlace:hover{letter-spacing:3px;}
+#contenido:{clear:both;
+            margin:0px;
+			overflow-x:hidden;
+			-moz-transition:all 1.5s;
+			-webkit-transition:all 1.5s;
+			-o-transition:all 1.5s;
+			text-align:justify;}
+</style>

@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+    <script language="javascript">
+	   function MostrarTodo(texto){
+	   var elemento = document.getElementById('texto_original');
+	   elemento.innerHTML = texto;
+	   }
+	</script>
+</head>
+
+<body>
+                        <?php
+                        $texto = "<h2><a href="#">Manhattan Mall</a></h2>
+                                    <p>El centro comercial Manhattan Mall es uno de los mejores de llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll<a href="www.new york.com">New York</a>.</p>";
+                        if (strlen($texto)>100)  {
+                            $texto =substr($texto,0,100).'...<a href="javascript:void(0):" onclick="MostrarTodo('."'".$texto."'".');" title="Ver mas" class="more">Ver mas</a>';
+                            print '<div id="texto_original">'.$texto.'</div>';
+                        }            
+
+                          ?>
+</body>
+</html>
